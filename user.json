@@ -1,0 +1,20 @@
+[
+    {
+        "admin": {
+        "name": "admin",
+        "password":"admin"
+        }
+    },
+    {
+        "spedytor":{
+        "name": "spedytor",
+        "password": "spedytor"
+        }
+    },
+    {
+        "kurier":{
+            "name":"Kowalski",
+            "password":"123"
+        }
+    }
+    ]
