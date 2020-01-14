@@ -1,0 +1,113 @@
+[{
+        "id": "1",
+        "nazwa": "bulbasaur",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "type": "poison",
+        "height": 7,
+        "weight": 69
+    },
+    {
+        "id": "2",
+        "nazwa": "ivysaur",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "type": "poison",
+        "height": 10,
+        "weight": 136
+    },
+    {
+        "id": "3",
+        "nazwa": "venusaur",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "type": "poison",
+        "height": 20,
+        "weight": 1000
+    },
+    {
+        "id": "4",
+        "nazwa": "charmander",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "type": "fire",
+        "height": 6,
+        "weight": 85
+    },
+    {
+        "id": "5",
+        "nazwa": "charmeleon",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "type": "fire",
+        "height": 11,
+        "weight": 190
+    },
+    {
+        "id": "6",
+        "nazwa": "charizard",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "type": "fire",
+        "height": 17,
+        "weight": 905
+    },
+    {
+        "id": "7",
+        "nazwa": "squirtle",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "type": "water",
+        "height": 5,
+        "weight": 90
+    },
+    {
+        "id": "8",
+        "nazwa": "wartortle",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "type": "water",
+        "height": 10,
+        "weight": 225
+    },
+    {
+        "id": "9",
+        "nazwa": "blastoise",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "type": "water",
+        "height": 16,
+        "weight": 855
+    },
+    {
+        "id": "10",
+        "nazwa": "pikachu",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "type": "electric",
+        "height": 4,
+        "weight": 60
+    },
+    {
+        "id": "11",
+        "nazwa": "raichu",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "type": "electric",
+        "height": 8,
+        "weight": 300
+    },
+    {
+        "id": "12",
+        "nazwa": "raichu",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+        "type": "electric",
+        "height": 8,
+        "weight": 300
+    },
+    {
+        "id": "13",
+        "nazwa": "sandshrew",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+        "type": "ground",
+        "height": 6,
+        "weight": 120
+    },
+    {
+        "id": "14",
+        "nazwa": "sandslash",
+        "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+        "type": "ground",
+        "height": 10,
+        "weight": 295
+    }
+]
