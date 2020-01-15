@@ -71,7 +71,7 @@
         "weight": 855
     },
     {
-        "id": "10",
+        "id": "25",
         "nazwa": "pikachu",
         "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
         "type": "electric",
@@ -79,7 +79,7 @@
         "weight": 60
     },
     {
-        "id": "11",
+        "id": "26",
         "nazwa": "raichu",
         "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
         "type": "electric",
@@ -87,26 +87,26 @@
         "weight": 300
     },
     {
-        "id": "12",
-        "nazwa": "raichu",
+        "id": "27",
+        "nazwa": "sandshrew",
         "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
-        "type": "electric",
+        "type": "ground",
         "height": 8,
         "weight": 300
     },
     {
-        "id": "13",
-        "nazwa": "sandshrew",
+        "id": "28",
+        "nazwa": "sandslash",
         "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
         "type": "ground",
         "height": 6,
         "weight": 120
     },
     {
-        "id": "14",
-        "nazwa": "sandslash",
+        "id": "29",
+        "nazwa": "nidoran-f",
         "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
-        "type": "ground",
+        "type": "poison",
         "height": 10,
         "weight": 295
     }
