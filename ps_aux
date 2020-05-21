@@ -1,0 +1,180 @@
+student@Linux-WSTI:~$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.3  24088  5144 ?        Ss   08:41   0:01 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    08:41   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    08:41   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   08:41   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    08:41   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    08:41   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    08:41   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    08:41   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    08:41   0:00 [kdevtmpfs]
+root        12  0.0  0.0      0     0 ?        S<   08:41   0:00 [netns]
+root        13  0.0  0.0      0     0 ?        S<   08:41   0:00 [perf]
+root        14  0.0  0.0      0     0 ?        S    08:41   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   08:41   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   08:41   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        SN   08:41   0:01 [khugepaged]
+root        18  0.0  0.0      0     0 ?        S<   08:41   0:00 [crypto]
+root        19  0.0  0.0      0     0 ?        S<   08:41   0:00 [kintegrityd]
+root        20  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        21  0.0  0.0      0     0 ?        S<   08:41   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   08:41   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S<   08:41   0:00 [md]
+root        24  0.0  0.0      0     0 ?        S<   08:41   0:00 [devfreq_wq]
+root        28  0.0  0.0      0     0 ?        S    08:41   0:00 [kswapd0]
+root        29  0.0  0.0      0     0 ?        S<   08:41   0:00 [vmstat]
+root        30  0.0  0.0      0     0 ?        S    08:41   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    08:41   0:00 [ecryptfs-kthrea]
+root        47  0.0  0.0      0     0 ?        S<   08:41   0:00 [kthrotld]
+root        48  0.0  0.0      0     0 ?        S<   08:41   0:00 [acpi_thermal_pm]
+root        50  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        51  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        52  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        53  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        54  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        55  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        56  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        57  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        58  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        59  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        60  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        61  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        62  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        63  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        64  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        65  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        66  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        67  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        70  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        71  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        72  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        73  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        74  0.0  0.0      0     0 ?        S    08:41   0:00 [scsi_eh_0]
+root        75  0.0  0.0      0     0 ?        S<   08:41   0:00 [scsi_tmf_0]
+root        76  0.0  0.0      0     0 ?        S    08:41   0:00 [scsi_eh_1]
+root        77  0.0  0.0      0     0 ?        S<   08:41   0:00 [scsi_tmf_1]
+root        79  0.0  0.0      0     0 ?        S<   08:41   0:00 [ipv6_addrconf]
+root        94  0.0  0.0      0     0 ?        S<   08:41   0:00 [deferwq]
+root        95  0.0  0.0      0     0 ?        S<   08:41   0:00 [charger_manager]
+root        96  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root        97  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       185  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       195  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       202  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       208  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       211  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       213  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       214  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       218  0.0  0.0      0     0 ?        S<   08:41   0:00 [mpt_poll_0]
+root       222  0.0  0.0      0     0 ?        S<   08:41   0:00 [bioset]
+root       223  0.0  0.0      0     0 ?        S<   08:41   0:00 [mpt/0]
+root       248  0.0  0.0      0     0 ?        S<   08:41   0:00 [kpsmoused]
+root       271  0.0  0.0      0     0 ?        S<   08:41   0:00 [kworker/0:1H]
+root       510  0.0  0.0      0     0 ?        S    08:41   0:00 [scsi_eh_2]
+root       511  0.0  0.0      0     0 ?        S<   08:41   0:00 [scsi_tmf_2]
+root       513  0.0  0.0      0     0 ?        S<   08:41   0:00 [ttm_swap]
+root       573  0.0  0.0      0     0 ?        S    08:41   0:00 [jbd2/sda1-8]
+root       576  0.0  0.0      0     0 ?        S<   08:41   0:00 [ext4-rsv-conver]
+root       606  0.0  0.0      0     0 ?        S    08:41   0:00 [kauditd]
+root       611  0.0  0.1   6564  2948 ?        Ss   08:41   0:00 /lib/systemd/systemd-journald
+root       657  0.0  0.1  21296  2232 ?        Ssl  08:41   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root       678  0.0  0.3  15072  4680 ?        Ss   08:41   0:00 /lib/systemd/systemd-udevd
+systemd+   790  0.0  0.1  12616  2520 ?        Ssl  08:41   0:00 /lib/systemd/systemd-timesyncd
+syslog    1458  0.0  0.2  30760  3104 ?        Ssl  08:41   0:00 /usr/sbin/rsyslogd -n
+message+  1462  0.0  0.2   6456  4092 ?        Ss   08:41   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1485  0.0  0.1   7112  2748 ?        Ss   08:41   0:00 /usr/sbin/cron -f
+root      1486  0.0  0.4  41280  7704 ?        Ssl  08:41   0:00 /usr/sbin/ModemManager
+root      1487  0.0  0.1   4172  2988 ?        Ss   08:41   0:00 /lib/systemd/systemd-logind
+root      1491  0.0  0.0   2244  1256 ?        Ss   08:41   0:00 /usr/sbin/acpid
+whoopsie  1498  0.0  1.0  57428 15696 ?        Ssl  08:41   0:00 /usr/bin/whoopsie -f
+avahi     1503  0.0  0.1   5920  3028 ?        Ss   08:41   0:00 avahi-daemon: running [Linux-WSTI.local]
+avahi     1515  0.0  0.0   5920   288 ?        S    08:41   0:00 avahi-daemon: chroot helper
+root      1523  0.0  0.6 845376 10240 ?        Ssl  08:41   0:00 /usr/lib/snapd/snapd
+root      1558  0.1  0.5  53700  8892 ?        Ssl  08:41   0:08 /usr/bin/vmtoolsd
+root      1566  0.0  0.7  41872 12320 ?        Ssl  08:41   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1594  0.0  1.2  92760 19432 ?        Ssl  08:41   0:00 /usr/sbin/NetworkManager --no-daemon
+root      1662  0.0  0.6  39164 10756 ?        Ssl  08:41   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1663  0.0  0.5  37564  8780 ?        Ssl  08:41   0:00 /usr/sbin/cups-browsed
+root      1679  0.0  0.4  37612  7580 ?        SLsl 08:41   0:00 /usr/sbin/lightdm
+root      1795  0.0  0.2   6008  3216 ?        S    08:41   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp2s0.pid -lf /var/lib/NetworkManager/dhclient-92697dc5-be47-40ed-b964-4eebde94b18b-enp2s0.lease -cf /var/lib/NetworkMan
+root      1800  0.6  5.7 275104 88120 tty7     Ss+  08:41   0:33 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+nobody    2072  0.0  0.2  10648  3796 ?        S    08:41   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --proxy-dnssec --enable-dbus=org.freed
+rtkit     2202  0.0  0.1  23788  2868 ?        SNsl 08:41   0:00 /usr/lib/rtkit/rtkit-daemon
+root      2303  0.0  0.3  27940  6100 ?        Sl   08:41   0:00 lightdm --session-child 12 19
+student   2319  0.0  0.2   6372  4032 ?        Ss   08:41   0:00 /lib/systemd/systemd --user
+student   2320  0.0  0.0   7636  1400 ?        S    08:41   0:00 (sd-pam)
+student   2328  0.0  0.4  40512  6716 ?        Sl   08:41   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+student   2330  0.0  0.2   9996  4244 ?        Ss   08:41   0:00 /sbin/upstart --user
+student   2398  0.0  0.2   6364  3576 ?        Ss   08:41   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-CiqOIkaRSv
+student   2403  0.0  0.0   9012   228 ?        S    08:41   0:00 upstart-udev-bridge --daemon --user
+student   2456  0.0  0.0  25844   508 ?        Ss   08:41   0:00 gpg-agent --homedir /home/student/.gnupg --use-standard-socket --daemon
+student   2458  0.0  0.0   8912   252 ?        S    08:41   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+student   2460  0.0  0.0   8912   252 ?        S    08:41   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+student   2462  0.0  0.0   9380   316 ?        S    08:41   0:00 upstart-file-bridge --daemon --user
+student   2472  0.0  0.0   2368  1392 ?        Ss   08:41   0:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+student   2483  0.0  0.9  46908 14468 ?        Sl   08:41   0:00 xfce4-session
+student   2487  0.0  0.2   9116  4568 ?        S    08:41   0:00 /usr/lib/i386-linux-gnu/xfce4/xfconf/xfconfd
+student   2492  0.0  1.2  32160 19212 ?        S    08:41   0:05 xfwm4 --replace --display :0.0 --sm-client-id 27b9b53ef-d92c-4dcc-89ac-434c0911b6b9
+student   2493  0.0  1.7 101524 27496 ?        Sl   08:41   0:00 Thunar --sm-client-id 289eb3762-ebfd-4af0-9433-84968de32393 --daemon
+student   2494  0.0  1.1  40052 17944 ?        Sl   08:41   0:01 xfce4-panel --display :0.0 --sm-client-id 2ae59cc7b-fbd2-439a-b2a0-f9f802684049
+student   2496  0.0  1.0  78112 15900 ?        Ssl  08:41   0:00 xfsettingsd --display :0.0 --sm-client-id 27cd59380-9359-4386-8d39-4a3604267b6f
+student   2504  0.0  1.8  68548 28556 ?        Sl   08:41   0:01 xfdesktop --display :0.0 --sm-client-id 2481679a1-29e1-46e5-b1e3-4dfa7e605573
+root      2507  0.0  0.5  81308  8308 ?        Ssl  08:41   0:00 /usr/lib/upower/upowerd
+student   2525  0.0  1.5  53812 23344 ?        Sl   08:41   0:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-1.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 12582944 whiskermenu Menu Whisker Wy?wietla aktywatory zainstalowanych programów rozmieszczone
+student   2533  0.0  0.3  39984  5964 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfsd
+student   2538  0.0  0.4  52816  6600 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+root      2540  0.0  0.1   4748  1736 tty1     Ss+  08:41   0:00 /sbin/agetty --noclear tty1 linux
+student   2546  0.0  0.8  27416 13036 ?        S    08:41   0:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-1.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libsystray.so 4 12582945 systray Obszar powiadamiania Wy?wietla ikony powiadomień
+student   2547  0.0  1.7  66752 27008 ?        Sl   08:41   0:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libindicator-plugin.so 6 12582946 indicator Ikony powiadomień Wy?wietla na panelu ikony powiadomień ?rodowiska Un
+student   2560  0.0  0.7  45724 11444 ?        Ssl  08:41   0:00 xfce4-power-manager --restart --sm-client-id 2ecd038fa-9ea8-480e-bd0f-a90a53ef8acc
+student   2561  0.0  1.9  90312 29812 ?        Sl   08:41   0:00 nm-applet
+student   2562  0.0  1.5  80356 23452 ?        Sl   08:41   0:00 update-notifier
+student   2573  0.0  0.6  42904  9288 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+student   2574  0.0  1.0  52796 15496 ?        Sl   08:41   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+student   2576  0.0  1.2  63364 19848 ?        Sl   08:41   0:00 light-locker
+student   2577  0.0  0.4  45976  7208 ?        Sl   08:41   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+student   2582  0.0  0.2   5936  3384 ?        S    08:41   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+root      2585  0.0  0.6  56648  9456 ?        Ssl  08:41   0:00 /usr/lib/udisks2/udisksd --no-debug
+student   2593  0.0  0.3  29172  4888 ?        Sl   08:41   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+student   2594  0.1  1.6  67968 25272 ?        S    08:41   0:08 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+student   2604  0.0  0.3  37568  4732 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+student   2609  0.0  0.5  80540  7892 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+student   2610  0.0  0.1   5936  2860 ?        Ss   08:41   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+student   2618  0.0  0.6 178700  9924 ?        Ssl  08:41   0:00 xfce4-volumed
+student   2619  0.0  0.4  37580  7164 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+student   2625  0.0  0.4  38800  6888 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+student   2640  0.0  0.6 168416  9572 ?        S<l  08:41   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+student   2655  0.0  0.2  25268  4548 ?        Sl   08:41   0:00 /usr/lib/dconf/dconf-service
+student   2663  0.0  0.6  50704  9328 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+student   2671  0.0  0.4  39984  7116 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfsd
+student   2681  0.0  0.2   9864  4128 ?        S    08:41   0:00 upstart --user --startup-event indicator-services-start
+student   2683  0.0  0.5  49236  8112 ?        Ssl  08:41   0:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+student   2684  0.0  0.7 334684 11456 ?        Ssl  08:41   0:00 /usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+student   2690  0.0  0.6  65144 10180 ?        Ssl  08:41   0:00 /usr/lib/i386-linux-gnu/indicator-application/indicator-application-service
+student   2718  0.0  1.4  60396 22384 ?        Sl   08:41   0:02 /usr/bin/xfce4-terminal
+student   2722  0.0  0.1   2504  1652 ?        S    08:41   0:00 gnome-pty-helper
+student   2723  0.0  0.3   8716  4664 pts/6    Ss   08:41   0:00 bash
+student   2740  0.0  0.2  29436  4624 ?        Sl   08:41   0:00 /usr/lib/gvfs/gvfsd-metadata
+student   2750  0.4  6.4 593556 100100 ?       Sl   08:42   0:26 /usr/share/code/code --new-window-if-not-first /home/student/infinity_36334
+student   2754  0.0  1.7 153008 26484 ?        S    08:42   0:00 /usr/share/code/code --type=zygote --no-sandbox
+student   2791  0.0  3.3 219932 51420 ?        Sl   08:42   0:00 /usr/share/code/code --type=gpu-process --channel=2750.0.1859243753 --mojo-application-channel-token=D2B9FDE538EC1E92B333900B9869B741 --no-sandbox --window-depth=24 --x11-visual-id=33 --supports-dual-gpus=fa
+student   2796  0.0  3.3 221388 51444 ?        Sl   08:42   0:01 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap --type=SharedProcess
+student   2806  6.2  9.0 497660 139152 ?       Sl   08:42   5:44 /usr/share/code/code --type=renderer --no-sandbox --primordial-pipe-token=E23F44399F1FCB998F70267EC63156EF --lang=pl --node-integration=true --background-color=#1E1E1E --enable-pinch --num-raster-threads=1 -
+student   2843  0.0  2.9 218660 46200 ?        Sl   08:42   0:00 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap --type=extensionHost
+root      3514  0.0  0.0      0     0 ?        S    09:49   0:00 [kworker/u2:0]
+root      3538  0.0  0.0      0     0 ?        S    09:51   0:00 [kworker/0:1]
+root      3566  0.0  0.0      0     0 ?        S    09:59   0:00 [kworker/u2:1]
+root      3591  0.0  0.0      0     0 ?        S    10:05   0:00 [kworker/0:2]
+student   3646  0.0  0.1   6992  2844 pts/6    T    10:09   0:00 /bin/bash ./infinity_36334
+student   3648  0.0  0.1   6992  2664 pts/6    T    10:09   0:00 /bin/bash ./infinity_36334
+student   3650  0.0  0.1   6992  2912 pts/6    S    10:09   0:00 /bin/bash ./infinity_36334
+student   3654  0.0  0.0   5808   568 pts/6    T    10:10   0:00 sleep 10
+student   3658  0.0  0.0   5808   568 pts/6    T    10:10   0:00 sleep 10
+root      3669  0.0  0.0      0     0 ?        S    10:10   0:00 [kworker/0:0]
+student   3706  0.0  0.0   5808   576 pts/6    S    10:14   0:00 sleep 10
+student   3707  0.0  0.2   9376  3192 pts/6    R+   10:14   0:00 ps -aux
+student@Linux-WSTI:~$ echo 36334
+36334
